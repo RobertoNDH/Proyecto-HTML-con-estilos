@@ -8,21 +8,47 @@ body {
   margin: 1rem;
 }
 
-.nav ul{
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin-bottom: 2rem;
-  a {
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 15px;
+    background-color: white;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;           
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menu-principal li a {
+    display: block;
+    padding: 12px;
     text-decoration: none;
-    color: black;
-  }
+    color: #333;
+    border-bottom: 1px solid #eee; 
+}
+
+.submenu {
+    display: none; 
+    background-color: #f9f9f9;
+    list-style: none;
+    padding: 0;
+}
+
+.tiene-submenu:hover .submenu {
+    display: block; 
 }
 
 .main {
   h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 1.2rem;
   }
 
