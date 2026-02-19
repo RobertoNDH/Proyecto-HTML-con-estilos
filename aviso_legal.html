@@ -24,41 +24,55 @@
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-    <header>
-        <section>
-            <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="quienes_somos.html">Quiénes somos</a></li>
-                    <li><a href="cursos.html">Cursos</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="registro.html">Registro</a></li>
-                    <li><a href="login.html">Login</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </section>
-    </header>
+  <header>
+    <section>
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
+        </a>
+        <ul class="menu-principal">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="quienes_somos.html">Quiénes somos</a></li>
+          <li><a href="cursos.html">Cursos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="registro.html">Registro</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
 
-    <main>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
         <h1>Aviso Legal</h1>
-        <p>Actualizado por última vez el 3 de Septiembre de 2025.</p>
-        <p>Información en cumplimiento de la normativa de protección de datos personales a nivel mundial.</p>
-        <p>Empresa, en España.</p>
-        <p>Dirección de correo electrónico de contacto: conquerblocks@gmail.com</p>
-        <p>Nuestra página web: www.conquerblocks.com</p>
-    </main>
+        <p class="section-intro">Actualizado por última vez el 3 de Septiembre de 2025.</p>
+      </div>
+    </section>
 
-    <footer>
-    <p>Copyright © 2025 - <a href="aviso_legal.html">Aviso Legal</a></p>
-    </footer>
-    
+    <section class="legal-section">
+      <article class="card">
+        <p>Información en cumplimiento de la normativa de protección de datos personales a nivel mundial.</p>
+        <hr>
+        
+        <p><strong>Empresa:</strong> Conquer Blocks, en España.</p>
+        <p><strong>Correo electrónico:</strong> conquerblocks@gmail.com</p>
+        <p><strong>Sitio Web:</strong> www.conquerblocks.com</p>
+        
+        <div>
+          <a href="index.html" class="btn-link">Volver al Inicio</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright 2025 - <a href="aviso_legal.html">Aviso Legal</a></p>
+  </footer>
 </body>
+
+</html>
