@@ -25,18 +25,16 @@
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <header>
     <section>
-      <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
-      <nav>
-        <ul>
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
+        </a>
+        <ul class="menu-principal">
           <li><a href="index.html">Home</a></li>
           <li><a href="quienes_somos.html">Quiénes somos</a></li>
           <li><a href="cursos.html">Cursos</a></li>
@@ -50,18 +48,34 @@
   </header>
   
   <main>
-    <section>
-      <h1>La Blockchain en 5 minutos</h1>
-      <p>La blockchain es una base de datos que además funciona como una red que permite a los usuarios que participan en ella intercambiar valor entre sí, de forma inmediata, en tiempo real.</p>
-      <p>Se dice que es una base de datos porque todos estos intercambios, o mejor dicho, transacciones, quedan registrados automáticamente de forma inmutable y cronológicamente ordenados.</p>
-      <figure>
-        <img height="450" src="img/imagen_noticia_2.jpg" alt="imagen noticia 2">
-      </figure>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>La Blockchain en 5 minutos</h1>
+        <p class="section-intro">Conceptos clave para entender la tecnología que está cambiando el mundo.</p>
+      </div>
     </section>
+
+    <article class="article-container">
+      <div class="card article-body">
+        <p>La blockchain es una base de datos que además funciona como una red que permite a los usuarios que participan en ella intercambiar valor entre sí, de forma inmediata, en tiempo real.</p>
+        
+        <p>Se dice que es una base de datos porque todos estos intercambios, o mejor dicho, transacciones, quedan registrados automáticamente de forma inmutable y cronológicamente ordenados.</p>
+        
+        <figure class="hero-image">
+          <img src="img/imagen_noticia_2.jpg" alt="imagen noticia 2 sobre tecnología blockchain">
+        </figure>
+
+        <p>Esta tecnología elimina la necesidad de intermediarios, permitiendo que la confianza se deposite en el código y en la red descentralizada en lugar de en una única entidad central.</p>
+        
+        <div class="article-footer">
+          <a href="blog.html" class="btn-link">Volver al Blog</a>
+        </div>
+      </div>
+    </article>
   </main>
   
   <footer>
-    <p>Copyright © 2025 - <a href="aviso_legal.html">Aviso Legal</a></p>
+    <p>Copyright 2025 - <a href="aviso_legal.html">Aviso Legal</a></p>
   </footer>
   
 </body>

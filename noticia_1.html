@@ -25,18 +25,16 @@
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <header>
     <section>
-      <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
-      <nav>
-        <ul>
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
+        </a>
+        <ul class="menu-principal">
           <li><a href="index.html">Home</a></li>
           <li><a href="quienes_somos.html">Quiénes somos</a></li>
           <li><a href="cursos.html">Cursos</a></li>
@@ -50,21 +48,35 @@
   </header>
   
   <main>
-    <section>
-      <h1>Funciones de un Desarrollador Full-Stack</h1>
-      <p>Un desarrollador full-stack es experto en la creación de interfaces de usuario atractivas y funcionales. En el lado del frontend, se sumerge en tecnologías como HTML, CSS y JavaScript para construir la apariencia y la interactividad de las aplicaciones.</p>
-      <p>Los desarrolladores full-stack también se encargan de desarrollar la lógica de negocio de la aplicación, que es la parte que controla el funcionamiento interno de la aplicación.</p>
-      <p>Una vez que la aplicación está desarrollada, los desarrolladores son responsable de su mantenimiento y actualización.</p>
-      <figure>
-        <img height="450" src="img/imagen_noticia_1.jpg" alt="imagen noticia 1">
-      </figure>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Funciones de un Desarrollador Full-Stack</h1>
+        <p class="section-intro">Descubre qué hace realmente este perfil tan demandado.</p>
+      </div>
     </section>
+
+    <article class="article-container">
+      <div class="card article-body">
+        <p>Un desarrollador full-stack es experto en la creación de interfaces de usuario atractivas y funcionales. En el lado del frontend, se sumerge en tecnologías como HTML, CSS y JavaScript para construir la apariencia y la interactividad de las aplicaciones.</p>
+        
+        <p>Los desarrolladores full-stack también se encargan de desarrollar la lógica de negocio de la aplicación, que es la parte que controla el funcionamiento interno de la aplicación.</p>
+        
+        <figure class="hero-image">
+          <img src="img/imagen_noticia_1.jpg" alt="imagen noticia 1">
+        </figure>
+
+        <p>Una vez que la aplicación está desarrollada, los desarrolladores son responsables de su mantenimiento y actualización.</p>
+        
+        <div class="article-footer">
+          <a href="blog.html" class="btn-link">Volver al Blog</a>
+        </div>
+      </div>
+    </article>
   </main>
   
   <footer>
-    <p>Copyright © 2025 - <a href="aviso_legal.html">Aviso Legal</a></p>
+    <p>Copyright 2025 - <a href="aviso_legal.html">Aviso Legal</a></p>
   </footer>
-
 
 </body>
 
