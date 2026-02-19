@@ -25,18 +25,16 @@
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <header>
     <section>
-      <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
-      <nav>
-        <ul>
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <img src="img/Conquer-Blocks-logo.avif" alt="Logo conquer blocks">
+        </a>
+        <ul class="menu-principal">
           <li><a href="index.html">Home</a></li>
           <li><a href="quienes_somos.html">Quiénes somos</a></li>
           <li><a href="cursos.html">Cursos</a></li>
@@ -50,28 +48,35 @@
   </header>
 
   <main>
-    <section>
-      <h1>Nuestro Blog</h1>
-      <p>Las mejores noticias del momento sobre programación</p>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Nuestro Blog</h1>
+        <p class="section-intro">Las mejores noticias del momento sobre programación</p>
+      </div>
+    </section>
 
-      <article>
-        <h2>Funciones de un Desarrollador Full-Stack</h2>
-        <p>Las funciones de un desarrollador full-stack son variadas y varían mucho según la empresa o el proyecto en el que estén trabajando, pero es posible definir una serie de tareas comunes a todos los full Stack.</p>
-        <p>Sigue leyendo: <a href="noticia_1.html">Funciones Desarrollador Full-Stack</a></p>
-      </article>
+    <section class="blog-list">
+      <div class="grid-container">
+        
+        <article class="post">
+          <h2>Funciones de un Desarrollador Full-Stack</h2>
+          <p>Las funciones de un desarrollador full-stack son variadas y varían mucho según la empresa o el proyecto en el que estén trabajando.</p>
+          <a href="noticia_1.html" class="btn-link">Sigue leyendo</a>
+        </article>
 
-      <article>
-        <h2>La Blockchain en 5 minutos</h2>
-        <p>La tecnología Blockchain es una tecnología que puede ser difícil y densa de explicar, porque engloba muchos conceptos de otras tecnologías y si no los manejas bien, puedes perderte en un mar muy extenso.</p>
-        <p>Sigue leyendo: <a href="noticia_2.html">Blockchain en 5 minutos</a></p>
-      </article>
+        <article class="post">
+          <h2>La Blockchain en 5 minutos</h2>
+          <p>La tecnología Blockchain es una tecnología que puede ser difícil y densa de explicar, porque engloba muchos conceptos técnicos.</p>
+          <a href="noticia_2.html" class="btn-link">Sigue leyendo</a>
+        </article>
+
+      </div>
     </section>
   </main>
 
   <footer>
     <p>Copyright © 2025 - <a href="aviso_legal.html">Aviso Legal</a></p>
   </footer>
-
 </body>
 
 </html>
